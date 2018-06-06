@@ -1,0 +1,1 @@
+PartType.create name: 'Ukulele (Concert/Soprano)'

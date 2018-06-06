@@ -1,0 +1,12 @@
+.bundle
+.rspec
+
+db/*.sqlite3
+db/*.sqlite3-journal
+
+log/*
+tmp/
+
+bin/
+vendor/
+coverage/

@@ -1,0 +1,1 @@
+FullRange.create name: 'GCEA (Standard) Tuning - Soprano Ukulele'

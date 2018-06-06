@@ -1,0 +1,13 @@
+FactoryGirl.define do
+
+  factory :part do
+    data 'N@__'
+    part_type PartType.find(1)
+  end
+
+  factory :ukulele_blues_part, class: Part do
+    part_type PartType.find(1)
+    data 'N@_1n59n62n68 2n59n62n68 3^.5n59n62n68 3.5^.5n6B 4n59n62n68 5n56n5Cn62n68 6n56n5Cn62n68 7^.5n56n5Cn62n68 7.5^.5n6B 8n56n5Cn62n68 9n59n62n68 10n59n62n68 11^.5n59n62n68 11.5^.5n6B 12n59n62n68 13n59n5Fn68 14n59n5Fn68 15^.5n59n5Fn68 15.5^.56B 16n59n5Fn68 17n56n5Cn62n68 18n56n5Cn62n68 19^.5n56n5Cn62n68 19.5^.5n6B 20n56n5Cn62n68 21n56n5Cn62n68 22n56n5Cn62n68 23^.5n56n5Cn62n68 23.5^.5n6B 24n56n5Cn62n68 25n59n62n68 26n59n62n68 27^.5n59n62n68 27.5^.5n6B 28n59n62n68 29n59n62n68 30n59n62n68 31^.5n59n62n68 31.5^.5n6B 32n59n62n68 33n59n60n6E 34n59n60n6E 35^.5n59n60n6E 35.5^.5n6E 36n6C 37n56n5Cn62n6B 38n56n5Cn62n6B 39^.5n56n5Cn62n6B 39.5^56B 40n56n5Cn62n68 41n59n62n68 42n5Fn64n6C 43n5Cn62n6C 44n5Bn62n6B 45^4n59n62n68_'
+  end
+  
+end
